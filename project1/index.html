@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>实战项目</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+
+    <div class="center">
+        <div class="left">
+            <div class="header">
+                <div>姓名</div>
+                <input type="text" class="txt1">
+                <div>评分</div>
+                <input type="text" class="txt2">
+                <div>薪资</div>
+                <input type="text" class="txt3">
+                <button>新增</button>
+            </div>
+            <div class="title">
+                <div>姓名</div>
+                <div>评分</div>
+                <div>薪资</div>
+                <div>操作</div>
+            </div>
+            <ul>
+                <li>
+                    <div class="t1"><input type="text" class="text1" style="display: none;"></div>
+                    <div class="t2"><input type="text" class="text2" style="display: none;"></div>
+                    <div class="t3"><input type="text" class="text3" style="display: none;"></div>
+                    <div>
+                        <span class="yes"><img src="./image/yes.png" alt="" style="display: none;"></span>
+                        <span class="upd"><img src="./image/upd.png" alt=""></span>
+                        <span class="del"><img src="./image/del.png" alt=""></span>
+                        <span class="no"><img src="./image/no.png" alt="" style="display: none;"></span>
+                    </div>
+                </li>
+                <li class="active">
+                    <div><input type="text" class="text1" style="display: block;"></div>
+                    <div><input type="text" class="text2" style="display: block;"></div>
+                    <div><input type="text" class="text3" style="display: block;"></div>
+                    <div>
+                        <span class="yes"><img src="./image/yes.png" alt="" style="display: block;"></span>
+                        <span class="upd"><img src="./image/upd.png" alt="" style="display: none;"></span>
+                        <span class="del"><img src="./image/del.png" alt="" style="display: none;"></span>
+                        <span class="no"><img src="./image/no.png" alt="" style="display: block;"></span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="right">
+            <div class="top">
+                <h4>评分图示</h4>
+                <div class="zhu"></div>
+            </div>
+            <div class="bottom">
+                <h4>薪资图示</h4>
+                <div class="zhe"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="./js/echarts.min.js"></script>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: url(../image/bg.jpg) no-repeat 0 0;
+  background-size: cover;
+  min-width: 1280px;
+}
+body .center {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  color: #fff;
+}
+body .center .left {
+  flex: 2;
+  background: rgba(0, 0, 0, 0.7);
+  height: 800px;
+  border-radius: 1%;
+  margin: 10px;
+  margin-right: 0;
+}
+body .center .left .header {
+  display: flex;
+  line-height: 30px;
+  height: 30px;
+  padding: 10px;
+}
+body .center .left .header div {
+  flex: 2;
+  text-align: center;
+}
+body .center .left .header input {
+  flex: 2;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+body .center .left .header button {
+  flex: 2;
+  margin-left: 10px;
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  outline: none;
+}
+body .center .left .title {
+  display: flex;
+  height: 30px;
+  line-height: 30px;
+  background-color: #1e90ff;
+}
+body .center .left .title div {
+  flex: 1;
+  text-align: center;
+  border-left: 1px solid #000;
+}
+body .center .left .title div:nth-child(1) {
+  border-left: 0px;
+}
+body .center .left ul {
+  width: 100%;
+}
+body .center .left ul li {
+  display: flex;
+  height: 30px;
+  line-height: 30px;
+}
+body .center .left ul li div {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+body .center .left ul li div span {
+  position: relative;
+  flex: 1;
+  text-align: center;
+}
+body .center .left ul li div span img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 70%;
+  vertical-align: middle;
+}
+body .center .left ul li div input {
+  width: 30%;
+  height: 60%;
+  margin-top: 4px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  outline: none;
+}
+body .center .left ul li div:nth-child(4) {
+  border-right: 0px;
+}
+body .center .right {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 800px;
+  padding: 10px;
+}
+body .center .right .top {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  padding: 5px;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 1%;
+}
+body .center .right .top div.zhu {
+  width: 100%;
+  height: 90%;
+}
+body .center .right .bottom {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  padding: 5px;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 1%;
+  margin-top: 10px;
+}
+body .center .right .bottom div.zhe {
+  width: 100%;
+  height: 90%;
+}
+body .center .right h4 {
+  margin-top: 5px;
+}
+.active {
+  background-color: rgba(0, 0, 0, 0.5);
+}
